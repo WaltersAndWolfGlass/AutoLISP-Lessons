@@ -19,13 +19,19 @@
 
 ### Pros
 
-- Easy to write
-- Can `bscript` to apply the script to multiple files
+- Easy to write.
+- Can `bscript` to apply the script to multiple files.
+- Automates simple repetitive tasks.
 
 ### Cons
 
 - Limited to the command line, no dialog boxes or mouse clicks.
-- Can't take user input.
+- Can't take user input, they run from beginning to end the same way every time.
+- Can't make new AutoCAD commands, they must be run with the script command.
+
+### Tutorial
+
+We are going to make a script that 
 
 ## LISP Programming
 
@@ -34,3 +40,17 @@
 - The name LISP comes from **LIS**t **P**rocessor.  Lists are an important feature of LISP, but we won't be discussing them until a future lesson.
 - LISP was the second ever *high level* programming language and was invented in 1958.  FORTRAN was the first, invented the year before.
 - Decendants of the original LISP language include AutoLISP, Common Lisp, Scheme, Clojure, and many others.
+
+### Pros
+
+- Can make new AutoCAD commands.
+- Can take user input to do different things depending on them.
+- Can build in logic to make decisions.
+- Can be used to automate more complicated tasks.
+- Behaves like most programming languages, so it is a good starting point to learn general programming concepts.
+- Can be used directly on the command line or in scripts.
+
+### Cons
+
+- Must run in AutoCAD, it can't be used to make commands in Revit or a stand-alone applications.
+
