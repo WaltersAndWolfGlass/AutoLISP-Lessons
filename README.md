@@ -4,4 +4,4 @@ Lessons and class materials for learning AutoLISP
 
 Try out the lessons below!
 
-- [Lesson 01](Lesson01/README.md)
+- [Lesson 01](Lesson01/lesson01.md)
