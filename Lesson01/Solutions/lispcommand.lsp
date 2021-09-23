@@ -1,5 +1,0 @@
-(defun c:np ()
-  (setq pageNumber (getstring "What page number should this sheet be?"))
-  (command "" "" pageNumber)
-  (princ)
-)

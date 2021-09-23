@@ -25,7 +25,7 @@ We are going to make a script to update the "Drawn By" text on a set of drawings
 
 ### Pros
 
-- Easy to write.
+- Relatively easy to write.
 - Can `bscript` to apply the script to multiple files.
 - Automates simple repetitive tasks.
 
@@ -47,7 +47,7 @@ We are going to make a script to update the "Drawn By" text on a set of drawings
 
 ### Tutorial
 
-Earlier, we made a script to replace the "Drawn By" text in a drawing with our initials.  But what if we needed it to do different things based on user input?  This time we are going to make a new AutoCAD command in AutoLISP called `NP` short for `NumberPage` which will ask for a page number and then update the sheet number in paper space to match.
+Earlier, we made a script to replace the "Drawn By" text in a drawing with our initials.  But what if we needed it to do different things based on user input?  This time we are going to make a new AutoCAD command in AutoLISP called `NP` short for `NumberPage` which will ask for a page number and then update the sheet number text in paper space to match.
 
 ### Pros
 
@@ -60,12 +60,12 @@ Earlier, we made a script to replace the "Drawn By" text in a drawing with our i
 
 ### Cons
 
-- Must run in AutoCAD, it can't be used to make commands in Revit or a stand-alone applications.
+- Must run in AutoCAD, it can't be used to make commands in other applications like Revit or to make a new stand-alone application.
 
 ************
 
 ## Discussion Topics
 
 - How can we run our new LISP command across a series of drawings?
-- How can we make our LISP command more robust?
+- How can we make our LISP command more robust and less prone to error?  Does it work in model space?  Does it work if the UCS is different?  Does it work if you are zoomed in?
 - How can we make our LISP command automatically number pages sequentially?
